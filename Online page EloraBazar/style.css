@@ -1,0 +1,562 @@
+/* Barra de navegacion */
+.navbar { /**Barra café**/
+  padding: .5rem;
+  background-color: #bc8a5f;
+  border-radius: 20px;
+}
+
+nav  div  img{ /**imagencita de vrestido colgando**/
+  border-color:black;
+  margin-bottom: 50px;
+  border-radius: 80px;
+  scale: 190%;
+  margin-top: 30px;
+margin-left: 35px;
+}
+
+nav div a{ /**home**/
+  text-decoration: none;
+  margin: 0px;
+  font-size: 30px;
+  color:#000000;
+  margin-right: 30px;
+}
+
+nav div a .reels{ /**Reels**/
+  color: #000000;
+  margin-left: 20px;
+}
+
+
+nav div span{
+background-color: #b08968;
+border-bottom: #0a0a23;
+}
+
+section div h1 { 
+  margin-top: 100px;
+font-size: 100px;
+}
+
+section div img { /**Edicion de "Elorabazar"**/
+  transform: scale(2);
+  margin-top:200px;
+  background: radial-gradient(black);
+
+}
+
+section div .hero-inferior-imagen{ /**Edici[on de vestido negro**/
+width: 600px;
+float: left;
+border-radius: 50px;
+border-bottom-style:inset;
+transform: scale(1.5);
+margin-left: 190px;
+margin-top: 100px;
+cursor: pointer;
+}
+
+section div  .foto-espalda{ /**Edicion de foto espalda**/
+  width: 450px;
+  border-radius: 50px;
+  float: left;
+  margin-left: 290px;
+  transform: scale(1.5);
+  margin-top: 100px;
+  border-bottom-style: inset;
+cursor: pointer;
+}
+
+section div .foto-blusa{
+  width: 645px;
+  float: right;
+  border-radius: 50px;
+  border-bottom-style:inset;
+  transform: scale(1.5);
+  margin-top: 100px;
+  cursor: pointer;
+  margin-right: 190px;
+}
+
+.navbar-collapse { /**Barra de navegacióm**/
+  align-items: center;
+  justify-content: space-between;  
+  border-radius: 50px;
+  width: 500px;
+  left: 70%;
+  transform: translate(-50% -50%);
+  padding-left: 10px;
+}
+
+
+
+
+/* Estilos generales */
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #bc8a5f;
+  border-radius: 30px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: 'Rubik Dirt', cursive;
+  
+}
+
+.seccion-oscura {
+  color: white;
+  background-color: #3d1703;
+}
+
+.seccion-clara {
+  color: black;
+  background-color: white;
+}
+
+.seccion-titulo { /**Texto de somos una marca**/
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: bolder;
+  background-color:#ab681b;
+  text-align: center;
+  border-top-left-radius: 0.5em 1em;
+}
+
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #584e4e;
+  text-align: justify;
+  
+}
+
+.seccion-texto { /**Vamos aqui**/
+  font-size: 2.1rem;
+  text-align: justify;
+}
+
+.btn-info {
+  font-size: 3rem;
+  margin: 20px;
+  background-color:#d8be67b7;
+  border-bottom-left-radius: 50px;
+  border-color: #1b1b32;
+}
+
+.texto-negro {
+  color: rgb(0, 0, 0);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.texto-blanco {
+  color: rgb(248, 250, 248);
+  
+}
+
+/* Seccion Hero */
+
+.hero {
+  background-color: #f5f6f7;
+  min-height: 450px;
+  text-align: center;
+}
+
+.hero-principal {
+  padding: 3rem;
+  
+}
+
+.hero-imagen-desarrollador {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background-color: rgb(0, 0, 0);
+  
+}
+
+.hero-principal h2 {
+  font-size: 2rem;
+  color: #000000;
+}
+
+/* Sobre mi */
+
+.sobre-mi { /**Crecuadro sobre Elora**/
+  height: 600px;
+  padding: 10px;
+  background-color:#d8be67af; 
+}
+
+.sobre-mi .contenedor {
+  width: 900px;
+  height: 100px;
+  text-align: center;
+  color: #0a0a23;
+  font: italic 1.2em "Fira Sans", serif;
+  
+  
+}
+
+  
+
+
+/* Experiencia */
+
+.experiencia {
+  padding: 40px 40px 60px 40px;
+}
+
+.bi-laptop::before {
+   
+
+}
+  
+
+.experiencia .columna {
+  padding: 20px;
+  border: 2px solid #0000004d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+  
+
+}
+
+.experiencia .columna:hover { /**Cuando selecciono las experiencias**/
+  color: rgb(12, 12, 12);
+  background-color: #e9deae;
+}
+
+
+
+.experiencia i {
+  font-size: 3rem;
+  color: #000000;
+  background-color: #e7bc91;
+  padding: 80px 90px;
+  border-radius: 50%;
+  
+}
+
+
+
+
+.experiencia-titulo {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 100px 0;
+  
+  
+}
+
+.badges-contenedor {
+  font-size: 41px;
+  font-weight: bold;
+  margin: 10px 0;
+  background-color:#a68a64;
+  border-radius: 20px;
+  
+    
+}
+
+.badge {
+  margin: 10px;
+  
+  
+}
+
+/* Proyectos */
+
+.proyectos-recientes {
+  padding: 40px;
+  
+    
+}
+
+.proyectos-recientes img {
+  height: 60%;
+  width: 60%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s ease;
+  border-radius: 20px;
+}
+
+.proyectos-contenedor {
+  padding-top: 10px;
+  margin-bottom: 10px;
+  margin-block: 100px 100px;
+}
+
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-block: 20% 20%;
+}
+
+.overlay p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-block: 20px 20px;
+}
+
+.proyecto {
+  position: relative;
+  margin-block: 20px 20px;
+}
+
+.proyecto:hover img {
+  opacity: 0.2;
+  margin-block: 20px 20px;
+}
+
+.proyecto:hover .overlay {
+  opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+  display: flex;
+  margin-block: 20px 20px;
+}
+
+.overlay i {
+  color: black;
+  font-size: 60px;
+  margin: 20px;
+}
+
+/* Articulos */
+
+.articulos {
+  min-height: 500px;
+  padding: 30px;
+}
+
+.articulos .card {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.articulos .card-header {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+/* Testimonios */
+
+.testimonios {
+  padding: 50px 50px 90px 50px;
+}
+
+.testimonios .carousel {
+  max-width: 800px;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonio-imagen {
+  height: 120px;
+  width: 90px;
+  border-radius: 80px;
+  
+}
+
+.testimonio-texto {
+  max-width: 180%;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Share Tech Mono', monospace;
+  padding-top: 110px;
+}
+
+.testimonio-info {
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+
+.testimonio-info p {
+  margin-bottom: 0;
+  
+}
+
+.testimonio-footer .cliente {
+  font-size: 1.2rem;
+}
+
+.testimonio-info .cargo {
+  font-size: 0.9rem;
+  color: #656060;
+}
+
+/* Contacto */
+
+.contacto .container {
+  max-width: 1100px;
+  min-height: 200px;
+  padding: 20px;
+}
+
+.contacto .rectangulo {
+  margin-top: -5rem;
+  background-color:#ab681b;
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px rgb(110, 44, 44);
+}
+
+.contacto .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contacto .descripcion {
+  color: white;
+  font-size: 1.6rem;
+}
+
+.contacto button {
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+  font-size: 1.2rem;
+}
+
+.contacto button:hover {
+  background-color: white;
+  color: black;
+}
+
+.contacto button i {
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i {
+  color: black;
+}
+
+/* Pie de pagina (footer) */
+
+footer {
+  min-height: 500px;
+}
+
+.footer-logo {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+  border-radius: 50px;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i {
+  color: black;
+}
+
+.derechos-de-autor {
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
+}
+
+/* Adaptable (Responsivo) */
+
+@media screen and (max-width: 400px) {
+  .overlay p {
+    font-size: 18px;
+  }
+
+  .overlay i {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .testimonio-imagen {
+    height: 120px;
+    width: 120px;
+  }
+
+  .testimonio-texto {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .hero-inferior-imagen {
+    max-width: 600px;
+  }
+}
